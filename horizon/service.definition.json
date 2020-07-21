@@ -11,10 +11,16 @@
     "requiredServices": [],
     "userInput": [
         {
-            "name": "HW_WHO",
-            "label": "Who to say hello to",
+            "name": "longitude",
+            "label": "What is the longitude",
             "type": "string",
-            "defaultValue": "World"
+            "defaultValue": "50000"
+        },
+        {
+            "name": "latitude",
+            "label": "What is the latitude",
+            "type": "string",
+            "defaultValue": "30000"
         }
     ],
     "deployment": {
